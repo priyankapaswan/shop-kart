@@ -1,0 +1,35 @@
+<div class="wrapper">
+    <div class="sub-wrapper">
+        <div class="row title-block">
+            <div class="col">
+                <h2>ShopKart</h2>
+            </div>
+            <div class="col to-right">
+                <div>
+                    <a href="" class="ml-auto">WISHLIST(0)</a>
+                    <a href="">BAG(0)</a>
+                </div>
+            </div>
+        </div>
+        <div class="menu-bar">
+            <div class="menu-item" *ngFor="let item of navbar" id="{{item.id}}"><a href="">{{item.name}}</a>
+                <div class="sub-menu-bar" *ngIf="item.child != null">
+                    <div class="sub-menu-item" *ngFor="let childItem of item.child" id="{{childItem.id}}"><a
+                            href="">{{childItem.name}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section></section>
+
+        <div class="banner-text">
+            <p>Fresh</p>
+            <p>2022</p>
+            <p>Look</p>
+        </div>
+        <div class="see-more align-right">
+            <a href="">See More</a>
+        </div>
+    </div>
+</div>

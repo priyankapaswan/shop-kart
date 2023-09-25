@@ -1,0 +1,25 @@
+.wrapper {
+    background-color: black;
+    color: white;
+}
+
+.sub-wrapper {
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px 0px;
+}
+
+a {
+    color: white;
+    padding: 0px 5px;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+
+}
+
+.to-right>div {
+    float: right;
+}

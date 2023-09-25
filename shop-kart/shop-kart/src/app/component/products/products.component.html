@@ -1,0 +1,21 @@
+<div class="wrapper">
+    <div class="sub-wrapper">
+        <h1>New Products</h1>
+        <div class="row">
+            <div class="col-2">
+                <h3>Categories</h3>
+                <div class="category" *ngFor="let category of categories">{{ category }}</div>
+            </div>
+            <div class="col-10">
+                <div class="product-holder">
+                    <div class="product" *ngFor="let product of products">
+                        <img src="{{product.image}}" />
+                        <h4>{{product.title}}</h4>
+                        <p>{{product.description}}</p>
+                        <h4>$ {{product.price}}</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

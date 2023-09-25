@@ -1,0 +1,59 @@
+.wrapper {
+    padding: 50px 0px;
+}
+
+.sub-wrapper {
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px 0px;
+}
+
+h1 {
+    font-size: 100px;
+    margin-bottom: 50px;
+    width: fit-content;
+    border-bottom: 1px solid black;
+}
+
+h3 {
+    width: fit-content;
+    border-bottom: 1px solid black;
+}
+
+.category {
+    width: 100%;
+    padding: 15px;
+}
+
+.category:hover {
+    border-left: 2px solid orange;
+}
+
+.product-holder {
+    overflow: auto;
+    white-space: nowrap;
+    align-content: start;
+}
+
+.product {
+    width: 300px;
+    margin: 15px;
+    display: inline-block;
+    white-space: break-spaces;
+    align-self: self-start;
+}
+
+.product img {
+    width: 300px;
+    height: 300px;
+}
+
+.product h4 {
+    max-height: 60px;
+    overflow-y: hidden;
+}
+
+.product p {
+    max-height: 100px;
+    overflow-y: hidden;
+}
